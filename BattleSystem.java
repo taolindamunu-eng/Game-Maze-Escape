@@ -29,8 +29,8 @@ public class BattleSystem {
                     player.takeDamage(eAtk);
                     System.out.println(">> Musuh membalas sebesar " + eAtk + " poin!");
                 } else {
-                    System.out.println("\n[!] Musuh dikalahkan! Kamu mendapat bonus +15 HP.");
-                    player.heal(15);
+                    System.out.println("\n[!] Musuh dikalahkan! Kamu mendapat bonus +5 HP.");
+                    player.heal(5);
                     return true;
                 }
             } else if (choice.equals("2")) {
